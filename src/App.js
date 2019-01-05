@@ -2,7 +2,7 @@ import React from 'react'
 import {Switch,Route} from 'react-router-dom';
 import Search from './views/Search';
 import Home from './views/Home';
-import Provider, {MyContext} from './Provider/Index';
+import Provider, {MyContext} from './Provider/index';
 import './App.css'
 
 class BooksApp extends React.Component {
